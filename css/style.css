@@ -1,0 +1,222 @@
+/* NAVBAR */
+.navbar{
+    background-color: grey;
+    padding: 100px;
+    border-radius: 25px;
+    width: 50%;
+    height: 375px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.navbar:hover{
+    transition: 1s;
+    box-shadow:0px 0px 400px 10px rgb(244, 252, 137); 
+}
+.navbar:not(:hover){
+    transition: 1s;
+}
+.navbar ul li{
+    text-align:left;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: rgb(66, 245, 245);
+}
+li:hover{
+    transition:0.5s;
+    font-weight:500;
+    font-size:larger;
+}
+li:not(:hover){
+    transition: 0.5s;
+}
+li:before{
+    content:"=> ";
+}
+
+
+/* IMAGES */
+/* IMAGE_RIGHT */
+.img_right{
+    width: 35%;
+    float: right;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.img_right:hover{
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+    border-top: 3px solid rgb(141, 240, 84);
+    border-left: 3px solid rgb(141, 240, 84);
+    /* filter:blur(1px); */
+}
+.img_right:not(:hover){
+    transition: 3s;
+}
+
+/* IMAGE_LEFT */
+.img_left{
+    width: 35%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.img_left:hover{
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+    border-top: 3px solid rgb(141, 240, 84);
+    border-left: 3px solid rgb(141, 240, 84);
+}
+.img_left:not(:hover){
+    transition: 3s;
+}
+
+/* NORMAL_IMAGE */
+.img{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+.img:hover{
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+    border-top: 3px solid rgb(141, 240, 84);
+    border-left: 3px solid rgb(141, 240, 84);
+}
+.img:not(:hover){
+    transition: 3s;
+}
+
+
+/* CLASSES FOR DIV */
+/* CONTAINER */
+.container{
+    border: 3px solid black;
+    padding: 50px;
+    margin: 200px;
+    background:linear-gradient(45deg, #50cc7f, #f8e160) ;
+}
+.container:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 500px 5px rgb(244, 252, 137);
+}
+.container:not(:hover){
+    transition: 1s;
+}
+
+/* CONTAINER-2 */
+.container2{
+    background-color: rgb(235, 212, 216);
+    border: 3px solid yellow;
+    padding: 100px;
+    margin: 200px;
+}
+.container2:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 500px 5px rgb(109, 109, 109);
+}
+.container2:not(:hover){
+    transition: 1s;
+}
+
+/* NAME_BOX */
+.name_box{
+    float: center;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 25vh 30vw;
+    /* margin: 20% 35% 20% 35%;   top right bottom left */
+    /* margin: 20% 35%;   top,bottom and right,left */
+    background:linear-gradient(45deg, #50cc7f, #f8e160);
+    width: max-content;
+    height: max-content;
+}
+.name_box:hover{
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+    border-top: 3px solid rgb(24, 250, 250);
+    border-left: 3px solid rgb(70, 253, 253);
+}
+.name_box:not(:hover){
+    transition: 3s;
+}
+
+
+/* BUTTONS */
+/* LEFT_BUTTON */
+.btn{
+    background-color: rgb(213, 255, 115);
+    padding: 10px;
+    border: 2px solid rgb(4, 196, 4);
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 25px;
+}
+.btn:hover{
+    color: #a1a1a1;
+    background: linear-gradient(270deg, #18C729, #fef500);
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+}
+.btn:not(:hover){
+    transition: 5s;
+}
+
+/* RIGHT_BUTTON */
+.btn_right{
+    background-color: rgb(213, 255, 115);
+    padding: 10px;
+    border: 2px solid rgb(4, 196, 4);
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 25px;
+    float: right;
+}
+.btn_right:hover{
+    color: #a1a1a1;
+    background: linear-gradient(270deg, #18C729, #fef500);
+    transition: 1s;
+    box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+}
+.btn_right:not(:hover){
+    transition: 5s;
+}
+
+/* CENTER_BUTTON */
+.btn_center{
+    text-align: center;
+}
+
+/* DECORATION */
+body{
+    background:linear-gradient(45deg,#FFE53B, #0ff);
+}
+
+
+/* EXTRA */
+h3 a{
+    /* font-size: 1.17em; */
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#head3{
+    font-size: 1.5em;
+}
+
+#bold1{
+    font-size: 1.1em ;
+}
