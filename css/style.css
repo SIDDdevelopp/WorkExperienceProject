@@ -132,10 +132,9 @@ li:before{
 .name_box{
     float: center;
     border: 3px solid black;
-    padding: 50px;
-    margin: 25vh 30vw;
-    /* margin: 20% 35% 20% 35%;   top right bottom left */
-    /* margin: 20% 35%;   top,bottom and right,left */
+    padding: 5em;
+    /* margin: 120px 40vw 120px 40vw;   top right bottom left */
+    margin: 20vh 33vw;   /*top,bottom and right,left */
     background:linear-gradient(45deg, #50cc7f, #f8e160);
     width: max-content;
     height: max-content;
