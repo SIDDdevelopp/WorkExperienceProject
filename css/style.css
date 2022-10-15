@@ -155,7 +155,7 @@ li:before{
 .btn{
     background-color: rgb(213, 255, 115);
     padding: 10px;
-    border: 2px solid rgb(4, 196, 4);
+    border: 2px solid rgb(129, 226, 3);
     cursor: pointer;
     font-size: larger;
     border-radius: 25px;
@@ -174,7 +174,7 @@ li:before{
 .btn_right{
     background-color: rgb(213, 255, 115);
     padding: 10px;
-    border: 2px solid rgb(4, 196, 4);
+    border: 2px solid rgb(129, 226, 3);
     cursor: pointer;
     font-size: larger;
     border-radius: 25px;
@@ -227,4 +227,9 @@ p{
 ::selection{
     color: aqua;
     background: rgb(128, 126, 129);
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
