@@ -96,6 +96,22 @@ li:before{
     transition: 3s;
 }
 
+/* MY IMAGE */
+.My_image{
+    height: 150px;
+    border:2px solid rgb(0,0,0);
+    margin: 10px;
+}
+.My_image:hover{
+    box-shadow: 5px 5px 0px 0px;
+    transition: 2s;
+    border-left: rgb(141, 240, 84);
+    border-top: rgb(141, 240, 84);
+}
+.My_image:not(:hover){
+    transition: 2s;
+}
+
 
 /* CLASSES FOR DIV */
 /* CONTAINER */
